@@ -2,8 +2,8 @@ from . import stats
 from .coach import Coach
 from .league import League
 from .player import Player
-from .schedule import Matchup
-from .schedule import Week
-from .schedule import Season
+from .simulator import Matchup
+from .simulator import Week
+from .simulator import Season
 from .team_group import Group
 from .team import Team
