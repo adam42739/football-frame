@@ -1,11 +1,11 @@
-from nflsim.cols.stats import defense
-from nflsim.cols.stats import kicking
-from nflsim.cols.stats import passing
-from nflsim.cols.stats import punting
-from nflsim.cols.stats import receiving
-from nflsim.cols.stats import returning
-from nflsim.cols.stats import rushing
-from nflsim.cols.stats import scoring
+from . import defense
+from . import kicking
+from . import passing
+from . import punting
+from . import receiving
+from . import returning
+from . import rushing
+from . import scoring
 
 
 PASSING = "Passing"
