@@ -2,3 +2,6 @@
 /footballframe.egg-info
 /test.py
 /build
+/test.py
+/footballframe/__pycache__
+/footballframe/stats/__pycache__
