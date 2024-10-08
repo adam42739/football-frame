@@ -48,6 +48,10 @@ Team:
 
 >>> import stats.team as team
 
+Types:
+
+>>> import stats.types as types
+
 """
 
 from . import categories
@@ -60,4 +64,5 @@ from . import returning
 from . import rushing
 from . import scoring
 from . import team
+from . import types
 from .stats import Frame
