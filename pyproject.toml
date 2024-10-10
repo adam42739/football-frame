@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "footballframe"
+version = "0.0.1"
+license = { file = "LICENSE.txt" }
+readme = "README.md"
+description="Framework for creating football simulations"
+authors = [{ name = "Adam Lynch" }]
+dependencies = [
+    "pandas",
+]
+classifiers=[
+    "Programming Language :: Python :: 3",
+    "Licesnse :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setools]
+packages = [
+    { include = "footballframe" },
+    { include = "footballframe.stats" }
+]
